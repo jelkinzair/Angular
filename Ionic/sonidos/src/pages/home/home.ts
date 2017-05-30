@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {ANIMALES} from '../../data/data.animales';
 import { Animal } from '../../interfaces/animal.interface';
-import {Refresher} from 'ionic-angular';
+import {Refresher , reorderArray} from 'ionic-angular';
 
 
 @Component({
@@ -81,5 +81,7 @@ recargaranimales(refrescar :Refresher){
 
   reordenaranimales(indices:any){
     console.log(indices)
+
+    this.animales = reorderArray(this.animales, indices);
   }
 }
