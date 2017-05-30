@@ -77,4 +77,9 @@ recargaranimales(refrescar :Refresher){
       refrescar.complete();
     }, 2000);
   }
+
+
+  reordenaranimales(indices:any){
+    console.log(indices)
+  }
 }
