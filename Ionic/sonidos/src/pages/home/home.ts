@@ -13,6 +13,7 @@ export class HomePage {
   animales : Animal [] = [];
   audio = new Audio();
   audioTiempo : any;
+  ordenando: boolean = false;
 
   constructor() {
     // Creamos un nuevo objeto tipo animal
