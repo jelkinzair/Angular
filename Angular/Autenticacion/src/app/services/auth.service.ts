@@ -16,8 +16,8 @@ export class AuthService {
      responseType: 'token id_token',
      audience: 'https://jelkinzair.auth0.com/userinfo',
      redirectUri: 'http://localhost:4200/callback',
-     scope: 'openid'
-  }); 
+     scope: 'openid profile'
+  });
 
   constructor(public router: Router) {}
 
