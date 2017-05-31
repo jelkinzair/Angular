@@ -17,7 +17,7 @@ export class AuthService {
      audience: 'https://jelkinzair.auth0.com/userinfo',
      redirectUri: 'http://localhost:4200/callback',
      scope: 'openid'
-  });
+  }); 
 
   constructor(public router: Router) {}
 
