@@ -27,7 +27,7 @@
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
 
-  <ion-list reorder="ordenando" (ionItemReorder)="reordenaranimales($event)">
+  <ion-list reorder="true" (ionItemReorder)="reordenaranimales($event)">
      <ion-item-sliding *ngFor="let animal of animales; let i = index">
         <ion-item (click) = "reproducir(animal)">
           <ion-avatar item-left>
