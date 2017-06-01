@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import {ANIMALES} from '../../data/data.animales';
 import { Animal } from '../../interfaces/animal.interface';
 import {Refresher , reorderArray} from 'ionic-angular';
-
+  
 
 @Component({
   selector: 'page-home',
