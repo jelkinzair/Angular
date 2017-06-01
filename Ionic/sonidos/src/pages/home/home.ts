@@ -82,7 +82,7 @@ recargaranimales(refrescar :Refresher){
 
   reordenaranimales(indices:any){
     console.log(indices)
-
+   
     this.animales = reorderArray(this.animales, indices);
   }
 }
